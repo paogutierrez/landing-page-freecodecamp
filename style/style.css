@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=Comic+Neue:wght@300&family=M+PLUS+1p&family=Montserrat:wght@200;300;500&family=Noto+Sans+Mono:wght@600;900&family=Noto+Serif:ital,wght@1,700&family=Oswald:wght@300;400&family=Permanent+Marker&family=Poiret+One&family=Press+Start+2P&family=Roboto+Mono:wght@300;500&family=Shippori+Antique+B1&family=Source+Sans+3&family=Space+Grotesk:wght@300&display=swap');
+*{
+    padding:0;
+    margin: 3px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.img{
+    font-size: 16px;
+	min-height: 45.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(../images/pexels-goochie-poochie-grooming-3361692.jpg);
+	background-position: center center;
+	background-size:cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	
+}
+.logo{
+    width:150px;
+    padding-right:15px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height:20px;
+    margin:10px 5px;
+}
+nav ul li a{
+    color:red;
+    font-size: 18px;
+    
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: black;
+    font-family: 'Source Sans 3', sans-serif;;
+}
+nav ul li a:hover{
+    background:rgb(11, 11, 65);
+    color:red;
+    padding:15px;
+    transition:.5s;
+}
+.nav-link:hover{
+    color: red;
+    transition:.5s;
+}
+h2{
+    font-family: 'Poiret One', cursive;
+    text-align:center;
+    padding-top:50px;
+}
+h3{
+ font-family: 'Poiret One', cursive;
+ font-size: 400%;
+ font-size: calc(1rem + 1vw);
+ text-align: center;
+}
+video{
+    width:100% ;
+    padding-right:200px;
+    padding-left:200px;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+form{
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;;
+    color: white;
+}
+input{
+    background:rgb(253, 253, 253);
+    border-radius: 3px;
+    padding: 5px;  
+}
+#email{
+    width:30%;
+}
+#submit{
+    background:rgb(0, 0, 0);
+    cursor:pointer;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    padding:5px;
+}
+footer{
+    background-color: rgb(14, 14, 85);
+}
+p{
+    color:white;
+    font-family: 'Poiret One', cursive;
+    padding:10px;
+}
